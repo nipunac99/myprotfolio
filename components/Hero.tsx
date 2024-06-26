@@ -25,7 +25,7 @@ const Hero = () => {
 
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Transforming Concepts into Seamless Experiences"
+            words="Transforming Concepts into Seamless Users Experiences"
           />
           <p className="text-center md:-tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi, I&apos;m Nipuna a Next.js Developer base in Sri Lanka
@@ -33,9 +33,9 @@ const Hero = () => {
 
           <a href="#about">
             <MagicButton
-                title="Show my work" // <-- {title} <-- come form pass the title form props
-                icon={<FaLocationArrow />}
-                position="right"
+                title="Show my work" // <-- {title} <-- come form pass the title props
+                icon={<FaLocationArrow />} // <-- {icon} <-- come form pass the icon props and install package ## React-icons ## for icon
+                position="right" // <-- {position} <-- come form pass the position props
              />
           </a>
         </div>

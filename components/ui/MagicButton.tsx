@@ -28,4 +28,5 @@ export default MagicButton;
 //     title: string; icon: React.ReactNode, position: string; handleClick?:() => void; otherClass?: string;
 // }) 
 
-// ### This is the props
+// ### This is the props 
+// ### Pass the data
